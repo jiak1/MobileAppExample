@@ -5,5 +5,5 @@ it('should render a title', () => {
 	const { getByText } = render(
 		<ButtonComponent title="Click me" onPress={() => {}} />
 	)
-	expect(getByText('jack')).toBeTruthy()
+	expect(getByText('Click me')).toBeTruthy()
 })
